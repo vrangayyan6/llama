@@ -39,14 +39,15 @@ LLaMA is a large language model [trained by Meta AI](https://ai.facebook.com/res
 ## Installation
 
 ```bash
-git clone https://github.com/ypeleg/llama
+#git clone https://github.com/ypeleg/llama
+git clone https://github.com/vrangayyan6/llama
 ```
 
 ```bash
 conda create -n llama python=3.10
 conda activate llama
 conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
-pip install transformers torch fairscale fire sentencepiece accelerate
+pip install -r requirements.txt
 ```
 
 cd into this repository
