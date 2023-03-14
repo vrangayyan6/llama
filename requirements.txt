@@ -2,3 +2,5 @@ torch
 fairscale
 fire
 sentencepiece
+transformers
+accelerate
